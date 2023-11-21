@@ -7,6 +7,7 @@ function App() {
         <Row>
           <Col md={6} sm={12}>
             <h1 className="text-danger">Hello world this is react app hiau Hello world this is react app hiau Hello world this is react app hiau Hello world this is react app hiau </h1>
+            <h4>We are still learning react js</h4>
           </Col>
         </Row>
       
