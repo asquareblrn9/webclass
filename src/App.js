@@ -1,18 +1,18 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Components/Home";
+import About from "./Components/About";
+
 
 function App() {
+
+
   return (
-    <div>
-      <Container>
-        <Row>
-          <Col md={6} sm={12}>
-            <h1 className="text-danger">Hello world this is react app hiau Hello world this is react app hiau Hello world this is react app hiau Hello world this is react app hiau </h1>
-            <h4>We are still learning react js</h4>
-          </Col>
-        </Row>
-      
-      </Container>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<About />} />
+    </Routes>
+    </>
   );
 }
 
